@@ -31,7 +31,7 @@ while count <= num :
     print(f"\n        > DRIVE/FOLDER - {count}\n")
     name  = input("    Enter Drive/Folder NAME  (anything)     : MEGADEV")
     id    = input("    Enter Drive/Folder ID                   : 0AG0BCLY1ENb-Uk9PVA")
-    index = input("    Enter Drive/Folder INDEX URL (optional) : https://megadev.my-world.workers.dev")
+    index = input("    Enter Drive/Folder INDEX URL (optional) : https://megadev.my-world.workers.dev/0:")
     if not name or not id:
         print("\n\n        ERROR : Dont leave the name/id without filling.")
         exit(1) 
