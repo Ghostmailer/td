@@ -93,7 +93,7 @@ class GoogleDriveHelper:
                     content += f'<b> | <a href="https://telegra.ph/{self.path[nxt_page]}">Nᴇxᴛ👉</a></b>'
                     nxt_page += 1
             telegra_ph.edit_page(path = self.path[prev_page],
-                                 title = '☁️@MirrorAll Search☁️',
+                                 title = '☁️@DEV_BOTSS CLOUD☁️',
                                  html_content=content)
         return
 
@@ -113,7 +113,7 @@ class GoogleDriveHelper:
             INDEX += 1          
             if response:
                 if add_title_msg == True:
-                    msg = f'<h3>Sᴇᴀʀᴄʜ Rᴇsᴜʟᴛs Fᴏʀ Yᴏᴜʀ Kᴇʏᴡᴏʀᴅ : {fileName}</h3><br><b><a href="https://groups.google.com/g/fc_gdrive">💖 JOIN TEAM DRIVE 💖</a></b> ||<b><a href="https://telegram.dog/fc_links">📥 JOIN MOVIE LINKS 📥</a></b><br><br>'
+                    msg = f'<h3>Sᴇᴀʀᴄʜ Rᴇsᴜʟᴛs Fᴏʀ Yᴏᴜʀ Kᴇʏᴡᴏʀᴅ : {fileName}</h3><br><b><a href="https://telegram.dog/TVSERIESHOME">💖 JOIN SERIES HUB 💖</a></b> ||<b><a href="https://telegram.dog/MOVIECLUB_CHAT">📥 JOIN MOVIE CLUB 📥</a></b><br><br>'
                     add_title_msg = False
                 msg += f"╾────────────╼<br><b>{DRIVE_NAME[INDEX]}</b><br>╾────────────╼<br>"
                 for file in response:
@@ -145,7 +145,7 @@ class GoogleDriveHelper:
             return "<b>➼Nᴏ Rᴇsᴜʟᴛs Fᴏᴜɴᴅ Fᴏʀ Yᴏᴜʀ Fɪʟᴇ Nᴀᴍᴇ Kᴇʏᴡᴏʀᴅ :(</b>", None
 
         for content in self.telegraph_content :
-            self.path.append(telegra_ph.create_page(title = '☁️@MirrorAll Search☁️',
+            self.path.append(telegra_ph.create_page(title = '☁️@DEV_BOTSS CLOUD☁️',
                                                 html_content=content )['path'])
 
         self.num_of_path = len(self.path)      
@@ -154,6 +154,6 @@ class GoogleDriveHelper:
 
         msg = f" <b>Sᴇᴀʀᴄʜ Rᴇsᴜʟᴛs Fᴏʀ Yᴏᴜʀ Kᴇʏᴡᴏʀᴅ :</b> ➼ {fileName} 👇 "
         buttons = button_builder.ButtonMaker()   
-        buttons.buildbutton("☘️ 𝐂𝐥𝐢𝐜𝐤 𝐇𝐞𝐫𝐞😋", f"https://telegra.ph/{self.path[0]}")
+        buttons.buildbutton("☘️ CLICK HERE FOR FILE ☘️", f"https://telegra.ph/{self.path[0]}")
 
         return msg, InlineKeyboardMarkup(buttons.build_menu(1))
