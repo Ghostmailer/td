@@ -19,17 +19,17 @@
     },
       "BOT_TOKEN": {
         "description": "The telegram bot token that you get from @BotFather.",
-        "value": "1420944011:AAFxYU2CA3SmoQZ6iV2qGKPaONTk-TEDFn8",
+        "value": "1852192957:AAEeFFuJnthufVYzLpSi9UPlkhwDnC79G74",
         "required": true
       },
       "OWNER_ID": {
         "description": "The Telegram user ID (not username) of the owner of the bot.",
-        "value": "1238571337",
+        "value": "1729079687",
         "required": true
       },
       "TELEGRAPH_TOKEN": {
         "description": "Open this link to generate telegraph token ==> https://telegraph-token.sonywegas.repl.run",
-        "value": "71fcaa547d3302e6226f34727573ff47312256f08204669a5379ec719c7e",
+        "value": "c34214d684ab64dbe412679ef4914a9af5e423131a0e26789bb79f7081db",
         "required": true
       }
 
